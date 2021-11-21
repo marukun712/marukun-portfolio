@@ -1,0 +1,11 @@
+[[redirects]]
+    from = "/static/*"
+    to = "https://marukun-portfolio.netlify.app/static/:splat"
+    status = 200
+    force = true
+
+[[redirects]]
+    from = "/portfolio"
+    to = "https://marukun-portfolio.netlify.app/"
+    status = 200
+    force = true
