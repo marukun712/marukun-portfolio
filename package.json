@@ -1,0 +1,22 @@
+{
+  "name": "marukun-portfolio",
+  "version": "1.0.0",
+  "description": "portfolioです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marukun712/marukun-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marukun712/marukun-portfolio/issues"
+  },
+  "homepage": "https://github.com/marukun712/marukun-portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

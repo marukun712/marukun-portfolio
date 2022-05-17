@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Montserrat:ital,wght@0,200;0,700;1,200;1,300;1,800&family=Roboto+Mono:wght@200&family=Source+Sans+Pro:ital,wght@0,600;0,900;1,900&display=swap');
+body {
+    max-width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.start {
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 9000;
+}
+
+.start p {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 9999;
+    width: 280px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e78632;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .3) 20%, transparent 20%, transparent 40%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, .3) 60%, transparent 60%, transparent 80%, rgba(255, 255, 255, 0.3) 80%);
+    border-radius: 10px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding-left: 7vw;
+}
